@@ -1,0 +1,26 @@
+.env
+RAGLab_CPU_Project_Plan.md
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Build and coverage artifacts
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# IDE and editor temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*~
+
+# Local data and generated results
+data/processed/
+results/
